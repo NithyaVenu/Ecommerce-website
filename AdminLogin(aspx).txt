@@ -1,0 +1,88 @@
+<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="AdminLogin.aspx.cs" Inherits="VBNP.AdminLogin" %>
+
+  <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!--
+Template Name: Touch of Purple
+Author: <a href="http://www.os-templates.com/">OS Templates</a>
+Author URI: http://www.os-templates.com/
+Licence: Free to use under our free template licence terms
+Licence URI: http://www.os-templates.com/template-terms
+-->
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>VBN Merchandise</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<link rel="stylesheet" href="layout/styles/layout.css" type="text/css" />
+<script type="text/javascript" src="layout/scripts/jquery.min.js"></script>
+<!-- Waterwheel Carousel -->
+<script type="text/javascript" src="layout/scripts/carousel/jquery.waterwheelCarousel.min.js"></script>
+<script type="text/javascript" src="layout/scripts/carousel/jquery.waterwheelCarousel.setup.js"></script>
+<!-- / Waterwheel Carousel -->
+</head>
+<body id="top">
+  <div class="wrapper col1">
+    <div id="header">
+      <div class="fl_left">
+          <h1><a href="Default.aspx"><img src="images/demo/Projectlogo.png" alt="" /></a></h1>
+      </div>
+    <div class="fl_right"><a href="#"></a></div>
+       <br class="clear" />
+  </div>
+ </div> 
+</body>
+
+<!-- ####################################################################################################### -->
+
+ <div class="wrapper col2">
+   <div id="topbar">
+     <div id="topnav">
+        <ul>
+              <li class="active"><a href="AdminLogin.aspx">Admin Login</a></li>
+              <li><a href="ManageOrders.aspx">Manage Orders</a></li>
+              <li><a href="ViewFeedback.aspx">View FeedBack</a></li>
+              <li><a href="ChooseLogin.aspx">LogOut</a></li>
+        </ul>
+        
+        </div>
+      </div>
+     </div>
+     <br />
+     <br />
+     <br />
+     <br />
+            <center> <h1>LOGIN FOR ADMIN</h1> </center>
+     <br />
+     <br />
+        <form id="form1" runat="server">
+          <center>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <asp:Table ID="Table1" runat="server" Width="360px" CellPadding="4" CellSpacing="4" HorizontalAlign="Center" style="margin-left: 318px" BorderStyle="Double" BackImageUrl="images/content/login.jfif">
+              <asp:TableRow runat="server">
+                <asp:TableCell runat="server" HorizontalAlign="Justify" VerticalAlign="Middle">Admin Email</asp:TableCell>
+                  <asp:TableCell runat="server"> &nbsp;&nbsp;&nbsp;
+                    <asp:TextBox ID="TxtAdminEmail" runat="server"></asp:TextBox>                  
+                  </asp:TableCell>
+                </asp:TableRow>
+                <asp:TableRow runat="server">
+                 <asp:TableCell runat="server">Admin Password</asp:TableCell>
+                  <asp:TableCell runat="server"> &nbsp;&nbsp;&nbsp;
+                    <asp:TextBox ID="TxtAdminPass" runat="server" TextMode="Password"></asp:TextBox>
+                  </asp:TableCell>
+                </asp:TableRow> 
+                <asp:TableRow runat="server" HorizontalAlign="Center" VerticalAlign="Middle">
+                  <asp:TableCell runat="server" ColumnSpan="2" HorizontalAlign="Center" VerticalAlign="Middle">
+                    <br />
+                    <br />
+                    <asp:Button ID="BtnAdmin" runat="server" Text="Login" OnClick="BtnAdmin_Click"/>
+                  </asp:TableCell>
+               </asp:TableRow>
+               <asp:TableRow runat="server" HorizontalAlign="Center" VerticalAlign="Middle">
+                 <asp:TableCell runat="server" HorizontalAlign="Center" VerticalAlign="Middle" Wrap="true">
+                 </asp:TableCell>
+                 <asp:TableCell runat="server" HorizontalAlign="Center" VerticalAlign="Middle" Wrap="true">
+                    <asp:Label ID="LlDisp" runat="server" Text=""></asp:Label>
+                 </asp:TableCell>
+              </asp:TableRow>
+          </asp:Table>
+        </center>
+      </form>
+  </html>

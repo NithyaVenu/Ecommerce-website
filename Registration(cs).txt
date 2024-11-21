@@ -1,0 +1,49 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Web;
+using System.Web.UI;
+using System.Web.UI.WebControls;
+using System.Data.SqlClient;
+using System.Configuration;
+
+namespace VBNP
+{
+    public partial class Registration1 : System.Web.UI.Page
+    {
+        
+
+
+        protected void Page_Load(object sender, EventArgs e)
+        {
+            SqlConnection con = new SqlConnection(ConfigurationManager.ConnectionStrings["dbconnect1"].ConnectionString);
+            SqlCommand cmd = new SqlCommand();
+        }
+
+        protected void Btnreg_Click(object sender, EventArgs e)
+        {
+
+            try
+            {
+
+                SqlConnection con = new SqlConnection(ConfigurationManager.ConnectionStrings["dbconnect1"].ConnectionString);
+                con.Open();
+                string insert = "insert into Register(UserName,Password,RetypePassword,Phone,Email,Utype) values(@UserName,@Password,@RetypePassword,@Phone,@Email,@Utype)";
+                SqlCommand cmd = new SqlCommand(insert, con);
+                cmd.Parameters.AddWithValue("@UserName", TxtUserName.Text);
+                cmd.Parameters.AddWithValue("@Password", TxtPass.Text);
+                cmd.Parameters.AddWithValue("@RetypePassword", TxtRepass.Text);
+                cmd.Parameters.AddWithValue("@Phone", TxtPhone.Text);
+                cmd.Parameters.AddWithValue("@Email", TxtMail.Text);
+                cmd.Parameters.AddWithValue("@Utype", "User");
+                cmd.ExecuteNonQuery();
+                Response.Redirect("Login1.aspx");
+                con.Close();
+            }
+            catch (Exception ex)
+            {
+                Response.Write(ex);
+            }
+        }
+    }
+}

@@ -1,0 +1,101 @@
+<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Candles.aspx.cs" Inherits="VBNP.Candles" %>
+
+ <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!--
+Template Name: Touch of Purple
+Author: <a href="http://www.os-templates.com/">OS Templates</a>
+Author URI: http://www.os-templates.com/
+Licence: Free to use under our free template licence terms
+Licence URI: http://www.os-templates.com/template-terms
+-->
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>VBN Merchandise</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<link rel="stylesheet" href="layout/styles/layout.css" type="text/css" />
+<script type="text/javascript" src="layout/scripts/jquery.min.js"></script>
+<!-- Waterwheel Carousel -->
+<script type="text/javascript" src="layout/scripts/carousel/jquery.waterwheelCarousel.min.js"></script>
+<script type="text/javascript" src="layout/scripts/carousel/jquery.waterwheelCarousel.setup.js"></script>
+<!-- / Waterwheel Carousel -->
+</head>
+<body id="top">
+<div class="wrapper col1">
+  <div id="header">
+    <div class="fl_left">
+      <h1><a href="Default.aspx"><img src="images/demo/Projectlogo.png" alt="" /></a></h1>
+    </div>
+    <div class="fl_right"><a href="#"></a></div>
+    <br class="clear" />
+  </div>
+</div>
+
+<!-- ####################################################################################################### -->
+
+<div class="wrapper col2">
+  <div id="topbar">
+    <div id="topnav">
+        <ul>
+              <li><a href="Default.aspx">Home</a></li>
+              <li class="active"><a href="Products.aspx">Products</a>
+            <ul>
+                 <li><a href="Candles.aspx">Candles</a></li>
+                 <li><a href="Clothbag.aspx">Cloth Bag</a></li>
+                 <li><a href="Giftbox.aspx">Explosion Box</a></li>
+                 <li><a href="Hmchoco.aspx">Homemade Chocolates</a></li>
+                 <li><a href="Jutebag.aspx">Jute Baskets</a></li>
+                 <li><a href="Magicbottle.aspx">Magic Bottle</a></li>
+                 <li><a href="Mirrordesign.aspx">Mirror Design</a></li>
+                 <li><a href="Mobilecase.aspx">Mobile Cases</a></li>
+                 <li><a href="Newspaperbag.aspx">Newspaper Bag</a></li>
+                 <li><a href="Shoerack.aspx">Shoe Rack</a></li>
+                 <li><a href="Tablelamp.aspx">Table Lamp</a></li> 
+           </ul>
+           </li>
+                 <li><a href="ChooseLogin.aspx">LogOut</a></li>
+      </ul> 
+    </div>
+   </div>
+  </div>       
+
+<!-- ####################################################################################################### -->
+    
+<div class="wrapper col3">
+  <div id="waterwheelCarousel">
+    <img src="images/content/Candles/cd1.jpg" alt="" />
+    <img src="images/content/Candles/cd2.jpg" alt="" /> 
+    <img src="images/content/Candles/cd3.jpg" alt="" />
+    <img src="images/content/Candles/cd4.jpg" alt="" />
+    <img src="images/content/Candles/cd5.jpg" alt="" />    
+  </div>
+</div>
+        
+<!-- ####################################################################################################### -->
+
+<div class="wrapper col4">
+  <div id="featured_intro">
+    <div class="fl_center">   
+             <p> 
+                <center> <h1 style="font-size: xx-large">CANDLES</h1></center>
+                 <br />
+                 <br />
+                 <ul>
+                      <li><h4> &nbsp; A Candle is an ignitable wick embedded in wax,or another flammable solid substance such as tallow,that provides light and in some cases fragrance.</h4></li>
+                      <li><h4> &nbsp; A Candle can also provide heat,or be used as a method of keeping time.The candle can be used during the event of a power outage to provide light.</h4></li>
+                      <li><h4> &nbsp; A person who makes candles is traditionally known as a chandelier.various devices have been invented to hold candles,from simple table top candle sticks,also known candle holders,to eloborate chandeliers.</h4></li>
+                </ul> 
+                 <ul type="square">
+                      <li><h4>  &nbsp;  Candle Holders : Decorative candle holders,especially those shaped as a pedestal are called candle sticks; if multiple candle tapers are held,the term candelabrum is also used.</h4></li>
+                      <li><h4> &nbsp; Candle Followers : These are glass or metal tubes with an internal stricture partway along,which sit around the top of a bit candle.</h4></li>
+                      <li> <h4>&nbsp; Escape : Candle snuffers are instruments used to extinguish burning candles by smothering the flame with a small metal cup that is suspended from a long handle,and thus depriving it of oxygen.</h4></li>
+                 </ul>                
+              </p>
+                <br class="clear" />        
+      </div>
+    </div>
+  </div>
+
+<!-- ####################################################################################################### -->
+
+</body>
+</html>

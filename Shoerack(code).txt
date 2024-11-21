@@ -1,0 +1,113 @@
+<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Shoerack.aspx.cs" Inherits="VBNP.Shoerack" %>
+
+ <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!--
+Template Name: Touch of Purple
+Author: <a href="http://www.os-templates.com/">OS Templates</a>
+Author URI: http://www.os-templates.com/
+Licence: Free to use under our free template licence terms
+Licence URI: http://www.os-templates.com/template-terms
+-->
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>VBN Merchandise</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<link rel="stylesheet" href="layout/styles/layout.css" type="text/css" />
+<script type="text/javascript" src="layout/scripts/jquery.min.js"></script>
+<!-- Waterwheel Carousel -->
+<script type="text/javascript" src="layout/scripts/carousel/jquery.waterwheelCarousel.min.js"></script>
+<script type="text/javascript" src="layout/scripts/carousel/jquery.waterwheelCarousel.setup.js"></script>
+<!-- / Waterwheel Carousel -->
+</head>
+<body id="top">
+<div class="wrapper col1">
+  <div id="header">
+    <div class="fl_left">
+      <h1><a href="Default.aspx"><img src="images/demo/Projectlogo.png" alt="" /></a></h1>
+    </div>
+    <div class="fl_right"><a href="#"></a></div>
+    <br class="clear" />
+  </div>
+</div>
+<!-- ####################################################################################################### -->
+
+<div class="wrapper col2">
+  <div id="topbar">
+    <div id="topnav">
+         
+            <ul>
+        <li><a href="Default.aspx">Home</a></li>
+         <li class="active"><a href="Products.aspx">Products</a>
+          <ul>
+             <li><a href="Candles.aspx">Candles</a></li>
+              <li><a href="Clothbag.aspx">Cloth Bag</a></li>
+              <li><a href="Giftbox.aspx">Explosion Box</a></li>
+              <li><a href="Hmchoco.aspx">Homemade Chocolates</a></li>
+              <li><a href="Jutebag.aspx">Jute Baskets</a></li>
+              <li><a href="Magicbottle.aspx">Magic Bottle</a></li>
+              <li><a href="Mirrordesign.aspx">Mirror Design</a></li>
+              <li><a href="Mobilecase.aspx">Mobile Cases</a></li>
+              <li><a href="Newspaperbag.aspx">Newspaper Bag</a></li>
+              <li><a href="Shoerack.aspx">Shoe Rack</a></li>
+              <li><a href="Tablelamp.aspx">Table Lamp</a></li> 
+
+          </ul>
+        </li>
+                <li><a href="ChooseLogin.aspx">Log Out</a></li>
+      </ul> 
+
+    </div>
+     
+           <div class="wrapper col2">
+            <div id="topbar">
+             <div id="topnav">
+           <ul>
+               
+               </ul>
+            </div>
+           </div>
+          </div>
+       
+    </div>
+    <br class="clear" />
+  </div>
+
+<!-- ####################################################################################################### -->
+    
+<div class="wrapper col3">
+  <div id="waterwheelCarousel">
+    <img src="images/content/shoerack/s1.jpg" alt="" />
+    <img src="images/content/shoerack/s2.jpg" alt="" />
+    <img src="images/content/shoerack/s3.jpg" alt="" />
+    <img src="images/content/shoerack/s4.jpg" alt="" />
+    <img src="images/content/shoerack/s5.jpg" alt="" />
+     
+  </div>
+</div>
+        
+<!-- ####################################################################################################### -->
+
+<div class="wrapper col4">
+  <div id="featured_intro">
+    <div class="fl_center">
+        <p><center><h1 style="font-size: xx-large">SHOE RACK</h1></center></p>
+        <br />
+        <br />
+             <h4><p>* This SUPER space saving and surprisingly sturdy shoe rack is part of our hardwork.</p>
+             <p>* This durable shoe rack is entirely made of cardboard.</p>
+             <p>* Then you move,just recycle it and make a new one for your new place.</p>
+             <p>* It is great for people who move a lot and people who live in small space homes or college dorms.</p>
+             <p>* We can assure you that this cardboard shoe storage will make such a huge difference!...</p>
+             <p>* You will really enjoy using it and the look isn't too bad for something made from.....CARDBOARD!!!</p></h4>
+        <br class="clear" />
+    </div>  
+  </div>
+</div>
+<!-- ####################################################################################################### -->
+   
+     
+
+<!-- ####################################################################################################### -->
+
+</body>
+</html>

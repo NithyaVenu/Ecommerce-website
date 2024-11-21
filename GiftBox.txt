@@ -1,0 +1,125 @@
+<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Giftbox.aspx.cs" Inherits="VBNP.Giftbox" %>
+
+ <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!--
+Template Name: Touch of Purple
+Author: <a href="http://www.os-templates.com/">OS Templates</a>
+Author URI: http://www.os-templates.com/
+Licence: Free to use under our free template licence terms
+Licence URI: http://www.os-templates.com/template-terms
+-->
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>VBN Merchandise</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<link rel="stylesheet" href="layout/styles/layout.css" type="text/css" />
+<script type="text/javascript" src="layout/scripts/jquery.min.js"></script>
+<!-- Waterwheel Carousel -->
+<script type="text/javascript" src="layout/scripts/carousel/jquery.waterwheelCarousel.min.js"></script>
+<script type="text/javascript" src="layout/scripts/carousel/jquery.waterwheelCarousel.setup.js"></script>
+<!-- / Waterwheel Carousel -->
+</head>
+<body id="top">
+<div class="wrapper col1">
+  <div id="header">
+    <div class="fl_left">
+      <h1><a href="Default.aspx"><img src="images/demo/Projectlogo.png" alt="" /></a></h1>
+    </div>
+    <div class="fl_right"><a href="#"></a></div>
+    <br class="clear" />
+  </div>
+</div>
+<!-- ####################################################################################################### -->
+
+<div class="wrapper col2">
+  <div id="topbar">
+    <div id="topnav">
+         
+            <ul>
+        <li><a href="Default.aspx">Home</a></li>
+       
+        <li class="active"><a href="Products.aspx">Products</a>
+          <ul>
+             <li><a href="Candles.aspx">Candles</a></li>
+              <li><a href="Clothbag.aspx">Cloth Bag</a></li>
+              <li><a href="Giftbox.aspx">Explosion Box</a></li>
+              <li><a href="Hmchoco.aspx">Homemade Chocolates</a></li>
+              <li><a href="Jutebag.aspx">Jute Baskets</a></li>
+              <li><a href="Magicbottle.aspx">Magic Bottle</a></li>
+              <li><a href="Mirrordesign.aspx">Mirror Design</a></li>
+              <li><a href="Mobilecase.aspx">Mobile Cases</a></li>
+              <li><a href="Newspaperbag.aspx">Newspaper Bag</a></li>
+              <li><a href="Shoerack.aspx">Shoe Rack</a></li>
+              <li><a href="Tablelamp.aspx">Table Lamp</a></li> 
+          </ul>
+        </li>
+                
+               <li><a href="ChooseLogin.aspx">Log Out</a></li>
+                 </ul> 
+
+    </div>
+            <div class="wrapper col2">
+            <div id="topbar">
+             <div id="topnav">
+           <ul>
+               
+               </ul>
+            </div>
+           </div>
+          </div>
+         </div>
+    <br class="clear" />
+  </div>
+
+
+<!-- ####################################################################################################### -->
+    
+<div class="wrapper col3">
+  <div id="waterwheelCarousel">
+      <img src="images/content/giftbox/g1.jpg" alt="" />
+      <img src="images/content/giftbox/g2.jpg" alt="" />
+      <img src="images/content/giftbox/g3.jpg" alt="" />
+      <img src="images/content/giftbox/g4.jpg" alt="" />
+      <img src="images/content/giftbox/g5.jpg" alt="" />
+  </div>
+</div>
+        
+<!-- ####################################################################################################### -->
+
+<div class="wrapper col4">
+  <div id="featured_intro">
+    <div class="fl_center">
+               
+        <p> 
+            <center><h1 style="font-size: xx-large">EXPLOSION BOX<h1> </h1></center>
+             <ul>
+                 <li> <h4>&nbsp; An Explosion box is essentially a greeting card in a box.As the images above shown,when you remove the LID of the box,the cart opens up to reveal personalized messages and other decorated elements crafted by us.</h4></li>
+                 <li><h4>&nbsp; The best part of this explosion box is that its,pretty simple to put together and since it's hand crafted it will serve as a special gesture from you.</h4></li>
+                 <ul>
+                 <li><h4> &nbsp; Any occassion whether you are looking to send a sweet sentiment just because or celebrate one of life's little moments.This explosion box will help you do the trick.</h4></li>
+                     </ul> </p>
+                 <p><h1>Birthday Bash</h1>
+             </ul>    <ul type="disc">
+                     <li><h4> &nbsp; Another year older,another year wiser.Make the guest of honour feel extra special with a personalised card that really pops !!!!!</h4></li>
+
+                 </ul></p>
+            <p><h1>Love Note</h1>
+            <ul type="disc">
+                <li><h4>&nbsp; Have an anniversary coming up ?....  Looking for a way to remind your partner How much they mean to you ? ....This Love Note is sure to put a smile on your sweetheart's face.</h4></li>
+            </ul></p>
+                 
+        
+             
+             <br class="clear" />
+         
+    </div>
+  </div>
+</div>
+<!-- ####################################################################################################### -->
+   
+     
+
+<!-- ####################################################################################################### -->
+
+</body>
+</html>

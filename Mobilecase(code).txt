@@ -1,0 +1,126 @@
+<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Mobilecase.aspx.cs" Inherits="VBNP.Mobilecaseaspx" %>
+
+ <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!--
+Template Name: Touch of Purple
+Author: <a href="http://www.os-templates.com/">OS Templates</a>
+Author URI: http://www.os-templates.com/
+Licence: Free to use under our free template licence terms
+Licence URI: http://www.os-templates.com/template-terms
+-->
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>VBN Merchandise</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<link rel="stylesheet" href="layout/styles/layout.css" type="text/css" />
+<script type="text/javascript" src="layout/scripts/jquery.min.js"></script>
+<!-- Waterwheel Carousel -->
+<script type="text/javascript" src="layout/scripts/carousel/jquery.waterwheelCarousel.min.js"></script>
+<script type="text/javascript" src="layout/scripts/carousel/jquery.waterwheelCarousel.setup.js"></script>
+<!-- / Waterwheel Carousel -->
+</head>
+<body id="top">
+<div class="wrapper col1">
+  <div id="header">
+    <div class="fl_left">
+      <h1><a href="Default.aspx"><img src="images/demo/Projectlogo.png" alt="" /></a></h1>
+    </div>
+    <div class="fl_right"><a href="#"></a></div>
+    <br class="clear" />
+  </div>
+</div>
+<!-- ####################################################################################################### -->
+
+<div class="wrapper col2">
+  <div id="topbar">
+    <div id="topnav">
+         
+            <ul>
+        <li><a href="Default.aspx">Home</a></li>
+         <li class="active"><a href="Products.aspx">Products</a>
+          <ul>
+             <li><a href="Candles.aspx">Candles</a></li>
+              <li><a href="Clothbag.aspx">Cloth Bag</a></li>
+              <li><a href="Giftbox.aspx">Explosion Box</a></li>
+              <li><a href="Hmchoco.aspx">Homemade Chocolates</a></li>
+              <li><a href="Jutebag.aspx">Jute Baskets</a></li>
+              <li><a href="Magicbottle.aspx">Magic Bottle</a></li>
+              <li><a href="Mirrordesign.aspx">Mirror Design</a></li>
+              <li><a href="Mobilecase.aspx">Mobile Cases</a></li>
+              <li><a href="Newspaperbag.aspx">Newspaper Bag</a></li>
+              <li><a href="Shoerack.aspx">Shoe Rack</a></li>
+              <li><a href="Tablelamp.aspx">Table Lamp</a></li>
+             <li><a href="Shoerack.aspx">Shoe Rack</a></li>
+          </ul>
+        </li>
+                 <li><a href="ChooseLogin.aspx">Log Out</a></li>
+         
+        </ul>
+            <div id="topbar">
+             <div id="topnav">
+           <ul>
+              
+      </ul> 
+
+    </div>
+            <div class="wrapper col2"> 
+                
+            </div>
+           </div>
+          </div>
+         </div>
+    <br class="clear" />
+  </div>
+
+<!-- ####################################################################################################### -->
+    
+<div class="wrapper col3">
+  <div id="waterwheelCarousel">
+    <img src="images/content/mobilecase/mob1.jpg" alt="" />
+    <img src="images/content/mobilecase/mob2.jpg" alt="" />
+    <img src="images/content/mobilecase/mob3.jpg" alt="" />
+    <img src="images/content/mobilecase/mob4.jpg" alt="" />
+    <img src="images/content/mobilecase/mob5.jpg" alt="" />
+   
+    
+  </div>
+</div>
+        
+<!-- ####################################################################################################### -->
+
+<div class="wrapper col4">
+  <div id="featured_intro">
+    <div class="fl_center">
+        <p> <center><h1 style="font-size: xx-large">MOBILE BACK CASE</h1></center></p>
+        <br />
+        <br />
+           
+         <p><h3>* Mobile Backcase-The mobile cases are basically designed to support and attach to your mobile phones,and at the same time they are very helpful to hold the mobile phone in the safe manner.</h3></p>
+         <p><h3>* They are the most famous mobile accessories for so many numbers of phones,specifically mainstream smart phones.According to the display inches the measurements of the phone cases would be varied.</h3></p> 
+         <p><h3>* There are different types of the mobile or phone cases existing in the market:</h3></p>
+         <p>
+             <ul type="square">
+               <li><h5>Sleeves and Pouches</h5></li>
+               <li><h5>Shells</h5></li> 
+               <li><h5>Holsters</h5></li>
+               <li><h5>Safety Straps</h5></li>
+               <li><h5>Skins</h5></li>
+               <li><h5>Bumpers</h5></li>
+               <li><h5>Screen protection and body films</h5></li>
+               <li><h5>Flip cases and wallets</h5></li>
+               <li><h5>Drop and shock protection</h5></li>
+               <li><h5>Leather case</h5></li>
+            </ul>
+             <br class="clear" />
+        
+    </div>
+  </div>
+</div>
+<!-- ####################################################################################################### -->
+   
+     
+
+<!-- ####################################################################################################### -->
+
+</body>
+</html>

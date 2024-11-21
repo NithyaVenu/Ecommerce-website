@@ -1,0 +1,115 @@
+<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Registration1.aspx.cs" Inherits="VBNP.Registration1" %>
+ <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!--
+Template Name: Touch of Purple
+Author: <a href="http://www.os-templates.com/">OS Templates</a>
+Author URI: http://www.os-templates.com/
+Licence: Free to use under our free template licence terms
+Licence URI: http://www.os-templates.com/template-terms
+-->
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>VBN Merchandise</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<link rel="stylesheet" href="layout/styles/layout.css" type="text/css" />
+<script type="text/javascript" src="layout/scripts/jquery.min.js"></script>
+<!-- Waterwheel Carousel -->
+<script type="text/javascript" src="layout/scripts/carousel/jquery.waterwheelCarousel.min.js"></script>
+<script type="text/javascript" src="layout/scripts/carousel/jquery.waterwheelCarousel.setup.js"></script>
+<!-- / Waterwheel Carousel -->
+</head>
+<body id="top">
+<div class="wrapper col1">
+  <div id="header">
+    <div class="fl_left">
+      <h1><a href="Default.aspx"><img src="images/demo/Projectlogo.png" alt="" /></a></h1>
+    </div>
+    <div class="fl_right"><a href="#"></a></div>
+    <br class="clear" />
+  </div>
+</div>
+<!-- ####################################################################################################### -->
+
+<div class="wrapper col2">
+  <div id="topbar">
+    <div id="topnav">
+            <ul>
+                     <li class="active"><a href="Registration1.aspx">Registration</a></li>
+                     <li><a href="Login1.aspx">Log In</a></li> 
+                     <li><a href="ChooseLogin.aspx">Log Out</a></li>
+            </ul>   
+     </div>
+             <br class="clear" />
+  </div>
+</div>
+
+<!-- ####################################################################################################### -->
+  
+<div class="wrapper col4">
+  <div id="featured_intro">
+    <div class="fl_center">
+         <form id="form1" runat="server">
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+     <asp:Table ID="Table1" runat="server" Width="360px" CellPadding="4" CellSpacing="4" HorizontalAlign="Center" style="margin-left: 318px" BackImageUrl="images/content/login.jfif">
+        <asp:TableRow runat="server" BorderColor="Black" BorderStyle="Solid">
+            <asp:TableCell runat="server">User Name</asp:TableCell>
+            <asp:TableCell runat="server"> &nbsp;&nbsp;&nbsp;
+                <asp:TextBox ID="TxtUserName" runat="server"></asp:TextBox>
+                <asp:RequiredFieldValidator ID="RequiredFieldValidator1" runat="server" ErrorMessage="Please Enter Your Name" ControlToValidate="TxtUserName"></asp:RequiredFieldValidator>
+                 
+            </asp:TableCell>
+        </asp:TableRow>    
+        <asp:TableRow runat="server" BorderColor="Black" BorderStyle="Solid">
+            <asp:TableCell runat="server">Password</asp:TableCell>
+            <asp:TableCell runat="server"> &nbsp;&nbsp;&nbsp;
+               <asp:TextBox ID="TxtPass" runat="server" TextMode="Password"></asp:TextBox>
+                 <asp:RegularExpressionValidator ID="RegularExpressionValidator2" runat="server" ErrorMessage="Password length must be between 7 to 10 characters" ControlToValidate="TxtPass" ValidationExpression="^[a-zA-Z0-9'@&#.\s]{7,10}$"></asp:RegularExpressionValidator>                 
+            </asp:TableCell>
+        </asp:TableRow>
+        <asp:TableRow runat="server" BorderColor="Black" BorderStyle="Solid">
+            <asp:TableCell runat="server">Retype Password</asp:TableCell>
+            <asp:TableCell runat="server"> &nbsp;&nbsp;&nbsp;
+                <asp:TextBox ID="TxtRepass" runat="server" TextMode="Password"></asp:TextBox>
+                  <asp:CompareValidator ID="CompareValidator1" runat="server" ErrorMessage="Password Length Must Be Between 7 to 10 Characters" ControlToValidate="TxtRepass" ControlToCompare="TxtPass" ValidationExpression="^[a-zA-Z0-9'@&#.\s]{7,10}$"></asp:CompareValidator>            
+            </asp:TableCell>
+       </asp:TableRow>
+       <asp:TableRow runat="server" BorderColor="Black" BorderStyle="Solid">
+            <asp:TableCell runat="server">Phone </asp:TableCell>
+            <asp:TableCell runat="server">&nbsp;&nbsp;&nbsp;
+                <asp:TextBox ID="TxtPhone" runat="server" TextMode="Phone"></asp:TextBox>
+                  <asp:RangeValidator ID="RangeValidator1" runat="server" ErrorMessage="Please Enter Your Phone Number" ControlToValidate="TxtPhone" MinimumValue="000000000" MaximumValue="999999999"></asp:RangeValidator>            
+            </asp:TableCell>
+      </asp:TableRow>
+      <asp:TableRow runat="server" BorderColor="Black" BorderStyle="Solid">
+            <asp:TableCell runat="server">Mail Id</asp:TableCell>
+            <asp:TableCell runat="server"> &nbsp;&nbsp;&nbsp;
+                <asp:TextBox ID="TxtMail" runat="server" TextMode="Email"></asp:TextBox>
+                  <asp:RegularExpressionValidator ID="RegularExpressionValidator1" runat="server" ErrorMessage="Please Enter Your E-Mail ID" ControlToValidate="TxtMail" ValidationExpression="\w+([-+.']\w+)*@\w+([-.]\w+)*\.\w+([-.]\w+)*"></asp:RegularExpressionValidator>       
+            </asp:TableCell>
+      </asp:TableRow>      
+        <asp:TableRow runat="server" HorizontalAlign="Center" VerticalAlign="Middle">
+            <asp:TableCell runat="server" HorizontalAlign="Center" VerticalAlign="Middle" BorderColor="Black" BorderStyle="Solid" ColumnSpan="2">
+                <asp:Button ID="Btnreg" runat="server" Text="Sign Up" OnClick="Btnreg_Click"/>
+            </asp:TableCell>
+      </asp:TableRow>       
+        <asp:TableRow runat="server">
+            <asp:TableCell runat="server">    
+                <asp:SqlDataSource ID="SqlDataSource1" runat="server" ConnectionString='<%$ ConnectionStrings:dbconnect1 %>' SelectCommand="SELECT * FROM [Register]"></asp:SqlDataSource>
+            </asp:TableCell>
+            <asp:TableCell runat="server"></asp:TableCell>
+        </asp:TableRow>        
+      </asp:Table>
+     </form>
+    </div>
+  </div>
+</div>
+
+<!-- ####################################################################################################### -->
+
+</body>
+</html>

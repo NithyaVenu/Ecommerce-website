@@ -1,0 +1,110 @@
+<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site.master.cs" Inherits="VBNP.SiteMaster" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!--
+Template Name: Touch of Purple
+Author: <a href="http://www.os-templates.com/">OS Templates</a>
+Author URI: http://www.os-templates.com/
+Licence: Free to use under our free template licence terms
+Licence URI: http://www.os-templates.com/template-terms
+-->
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>VBN Merchandise</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<link rel="stylesheet" href="layout/styles/layout.css" type="text/css" />
+<script type="text/javascript" src="layout/scripts/jquery.min.js"></script>
+<!-- Waterwheel Carousel -->
+<script type="text/javascript" src="layout/scripts/carousel/jquery.waterwheelCarousel.min.js"></script>
+<script type="text/javascript" src="layout/scripts/carousel/jquery.waterwheelCarousel.setup.js"></script>
+<!-- / Waterwheel Carousel -->
+</head>
+<body id="top">
+<div class="wrapper col1">
+  <div id="header">
+    <div class="fl_left">
+      <h1><a href="Default.aspx"><img src="images/demo/Projectlogo.png" alt="" /></a></h1>
+    </div>
+    <div class="fl_right"><a href="#"></a></div>
+          <br class="clear" />
+  </div>
+</div>
+
+<!-- ####################################################################################################### -->
+
+<div class="wrapper col2">
+  <div id="topbar">
+    <div id="topnav">
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder3" runat="server">
+            <ul>
+                 
+                 <li class="active"><a href="Default.aspx">Home</a></li>
+                 <li><a href="Products.aspx">Products</a>
+            <ul>
+                 <li><a href="Candles.aspx">Candles</a></li>
+                 <li><a href="Clothbag.aspx">Cloth Bag</a></li>
+                 <li><a href="Giftbox.aspx">Explosion Box</a></li>
+                 <li><a href="Hmchoco.aspx">Homemade Chocolates</a></li>
+                 <li><a href="Jutebag.aspx">Jute Baskets</a></li>
+                 <li><a href="Magicbottle.aspx">Magic Bottle</a></li>
+                 <li><a href="Mirrordesign.aspx">Mirror Design</a></li>
+                 <li><a href="Mobilecase.aspx">Mobile Cases</a></li>
+                 <li><a href="Newspaperbag.aspx">Newspaper Bag</a></li>
+                 <li><a href="Shoerack.aspx">Shoe Rack</a></li>
+                 <li><a href="Tablelamp.aspx">Table Lamp</a></li>   
+           </ul>
+                 </li>
+                 <li><a href="AddToCart.aspx" >Items-Cart</a></li>
+                 <li><a href="FeedBack.aspx">Feed Back</a></li>
+                 <li><a href=" ContactUs.aspx">Contact Us</a></li>
+                 <li><a href="ChooseLogin.aspx" >Log Out</a></li>
+           </ul>
+
+       </asp:ContentPlaceHolder>
+             </div>
+           </div>
+         </div>
+        
+ 
+<!-- ####################################################################################################### -->
+    
+<div class="wrapper col3">
+  <div id="waterwheelCarousel">
+    <img src="images/carousel/1.gif" alt="" />
+    <img src="images/carousel/2.gif" alt="" />
+    <img src="images/carousel/3.gif" alt="" />
+    <img src="images/carousel/4.gif" alt="" />
+    <img src="images/carousel/5.gif" alt="" />
+    <img src="images/carousel/6.gif" alt="" />
+    <img src="images/carousel/7.gif" alt="" />
+    <img src="images/carousel/8.gif" alt="" />
+    <img src="images/carousel/9.gif" alt="" />
+    <img src="images/carousel/10.gif" alt="" />
+    <img src="images/carousel/11.gif" alt="" />
+  </div>
+</div>
+        
+<!-- ####################################################################################################### -->
+
+<div class="wrapper col4">
+  <div id="featured_intro">
+    <div class="fl_center">
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">      
+             <h1> Something About Us </h1>
+             <h4><p>- When buying from an HANDMAKER your buying more than just an OBJECT.</p>
+                 <p>- You are buying hundreds of hours of EXPERIMENTATION.</p>
+                 <p>- You are buying days,weeks and months of moments of PURE JOY.</p>
+                 <p>- You are not just buying a THING.You are buying a PIECE of heart,part of soul,a moment of someones life.</p>
+                 <p>- Most importantly,you are buying the ARTIST more time to do something they are PASSIONATE about.</p>
+                 <p>- Retailers can help customers to find the right products through focused merchandising.</p>
+                 <p>- You can look into our products for the simple reason that we owe products that are environment-friendly,better for the economy and purchases you can feel good about.</p></h4>
+             <br class="clear" />
+        </asp:ContentPlaceHolder>
+    </div>
+  </div>
+</div>
+
+<!-- ####################################################################################################### --> 
+
+</body>
+</html>

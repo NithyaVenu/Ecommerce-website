@@ -1,0 +1,116 @@
+<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Clothbag.aspx.cs" Inherits="VBNP.abc" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!--
+Template Name: Touch of Purple
+Author: <a href="http://www.os-templates.com/">OS Templates</a>
+Author URI: http://www.os-templates.com/
+Licence: Free to use under our free template licence terms
+Licence URI: http://www.os-templates.com/template-terms
+-->
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>VBN Merchandise</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<link rel="stylesheet" href="layout/styles/layout.css" type="text/css" />
+<script type="text/javascript" src="layout/scripts/jquery.min.js"></script>
+<!-- Waterwheel Carousel -->
+<script type="text/javascript" src="layout/scripts/carousel/jquery.waterwheelCarousel.min.js"></script>
+<script type="text/javascript" src="layout/scripts/carousel/jquery.waterwheelCarousel.setup.js"></script>
+<!-- / Waterwheel Carousel -->
+</head>
+<body id="top">
+<div class="wrapper col1">
+  <div id="header">
+    <div class="fl_left">
+      <h1><a href="Default.aspx"><img src="images/demo/Projectlogo.png" alt="" /></a></h1>
+    </div>
+    <div class="fl_right"><a href="#"></a></div>
+    <br class="clear" />
+  </div>
+</div>
+<!-- ####################################################################################################### -->
+
+<div class="wrapper col2">
+  <div id="topbar">
+    <div id="topnav">
+        
+            <ul>
+        <li><a href="Default.aspx">Home</a></li>
+        <li class="active"><a href="Products.aspx">Products</a>
+          <ul>
+            <li><a href="Candles.aspx">Candles</a></li>
+              <li><a href="Clothbag.aspx">Cloth Bag</a></li>
+              <li><a href="Giftbox.aspx">Explosion Box</a></li>
+              <li><a href="Hmchoco.aspx">Homemade Chocolates</a></li>
+              <li><a href="Jutebag.aspx">Jute Baskets</a></li>
+              <li><a href="Magicbottle.aspx">Magic Bottle</a></li>
+              <li><a href="Mirrordesign.aspx">Mirror Design</a></li>
+              <li><a href="Mobilecase.aspx">Mobile Cases</a></li>
+              <li><a href="Newspaperbag.aspx">Newspaper Bag</a></li>
+              <li><a href="Shoerack.aspx">Shoe Rack</a></li>
+              <li><a href="Tablelamp.aspx">Table Lamp</a></li> 
+          </ul>
+        </li>
+                
+               <li><a href="ChooseLogin.aspx">Log Out</a></li>
+      </ul>
+
+    </div>
+     
+           <div class="wrapper col2">
+            <div id="topbar">
+             <div id="topnav">
+           <ul>
+               
+               </ul>
+            </div>
+           </div>
+          </div>
+        
+    </div>
+    <br class="clear" />
+   
+</div>
+
+<!-- ####################################################################################################### -->
+    
+<div class="wrapper col3">
+  <div id="waterwheelCarousel">
+    <img src="images/content/clothbag/cb1.jpg" alt="" />
+    <img src="images/content/clothbag/cb2.jpg" alt="" />
+    <img src="images/content/clothbag/cb3.jpg" alt="" />
+    <img src="images/content/clothbag/cb4.jpg" alt="" />
+    <img src="images/content/clothbag/cb5.jpg" alt="" />
+  </div>
+</div>
+        
+<!-- ####################################################################################################### -->
+
+<div class="wrapper col4">
+  <div id="featured_intro">
+    <div class="fl_center">
+           
+    <p>
+        <center> <h1 style="font-size: xx-large"> CLOTH BAG</h1></center>
+        <BR />
+        <BR />
+        
+        <h4>*&nbsp;They are one of the best alternatives to plastic bags.Unlike the free bagging alternatives,cloth bags usually come with a nominal price tag.Cloth bags are best used for the purpose of environmental friendliness strength and style.</p>
+    <p>*&nbsp; Cloth bags are thicker than plastic bags,which makes them strong enough to be used again and again.</p>
+    <p>*&nbsp; Cloth bags are not only for the environmentally-conscious consumer.Unlike the free bagging alternatives,cloth bags usually come with a nominal price tag,but the advantages of reusing cloth bags outweight this small cost.</p>
+    <p>*&nbsp; Unlike plastic bags that are often transparent and decorated with a store logo,cloth bags are available in a variety of colors,shapes and sizes that can match your personal style,cloth bags need not be used only for shopping they make an attractive tote for carrying a variety of everyday items. </p> 
+    <p>*&nbsp;  Designer cloth tags can be purchased from retailers or crafty consumers can sew their own personalized bags.Reusable cloth bags can also offer the opportunity to make a style statement about green retailers or organizations.</h4></p>
+             <br class="clear" />
+        
+    </div>
+  </div>
+</div>
+<!-- ####################################################################################################### -->
+   
+     
+
+<!-- ####################################################################################################### -->
+
+</body>
+</html>

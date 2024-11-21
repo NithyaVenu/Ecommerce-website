@@ -1,0 +1,40 @@
+<%@ Page Title="" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="Products.aspx.cs" Inherits="VBNP.Products" %>
+<asp:Content ID="Content1" ContentPlaceHolderID="ContentPlaceHolder3" runat="server">
+    <ul>
+            <li><a href="Default.aspx">Home</a></li>
+            <li class="active"><a href="Products.aspx">Products</a>
+              <ul>
+                    <li><a href="Candles.aspx">Candles</a></li>
+                    <li><a href="Clothbag.aspx">Cloth Bag</a></li>
+                    <li><a href="Giftbox.aspx">Explosion Box</a></li>
+                    <li><a href="Hmchoco.aspx">Homemade Chocolates</a></li>
+                    <li><a href="Jutebag.aspx">Jute Baskets</a></li>
+                    <li><a href="Magicbottle.aspx">Magic Bottle</a></li>
+                    <li><a href="Mirrordesign.aspx">Mirror Design</a></li>
+                    <li><a href="Mobilecase.aspx">Mobile Cases</a></li>
+                    <li><a href="Newspaperbag.aspx">Newspaper Bag</a></li>
+                    <li><a href="Shoerack.aspx">Shoe Rack</a></li>
+                    <li><a href="Tablelamp.aspx">Table Lamp</a></li> 
+             </ul>
+             </li>
+                    <li><a href="AddToCart.aspx">Items-Cart</a></li>
+                    <li><a href="FeedBack.aspx">Feed Back</a></li>
+                    <li><a href="ContactUs.aspx">Contact Us</a></li>
+                    <li><a href="ChooseLogin.aspx">Log Out</a></li>
+    </ul>
+</asp:Content>
+<asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
+     <ul>
+        <li><h1><asp:HyperLink ID="HyL5" runat="server" Text="Candles"  NavigateUrl="~/Candles.aspx"></asp:HyperLink></h1></li>
+        <li><h1><asp:HyperLink ID="HyL2" runat="server" Text="Cloth Bag"  NavigateUrl="~/Clothbag.aspx"></asp:HyperLink></h1></li>
+        <li><h1><asp:HyperLink ID="HyL9" runat="server" Text="Gift Box"  NavigateUrl="~/Giftbox.aspx"></asp:HyperLink></h1></li>
+        <li><h1><asp:HyperLink ID="HyL10" runat="server" Text="HomeMade Chocolate"  NavigateUrl="~/Hmchoco.aspx"></asp:HyperLink></h1></li>
+        <li><h1><asp:HyperLink ID="HyL8" runat="server" Text="Jute Basket"  NavigateUrl="~/Jutebag.aspx"></asp:HyperLink></h1></li>
+        <li><h1><asp:HyperLink ID="HyL3" runat="server" Text="Magic Bottle"  NavigateUrl="~/MagicBottle.aspx"></asp:HyperLink></h1></li> 
+        <li><h1><asp:HyperLink ID="HyL4" runat="server" Text="Mirror Design"  NavigateUrl="~/Mirrordesign.aspx"></asp:HyperLink></h1></li>
+        <li><h1><asp:HyperLink ID="HyL7" runat="server" Text="Mobile Backcase"  NavigateUrl="~/Mobilecase.aspx"></asp:HyperLink></h1></li>
+        <li><h1><asp:HyperLink ID="HyL1" runat="server" Text="NewsPaper Bag"  NavigateUrl="~/NewsPaperBag.aspx"></asp:HyperLink></h1></li>
+        <li><h1><asp:HyperLink ID="HyL11" runat="server" Text="Shoe Rack"  NavigateUrl="~/Shoerack.aspx"></asp:HyperLink></h1></li>
+        <li><h1><asp:HyperLink ID="HyL6" runat="server" Text="Table Lamp"  NavigateUrl="~/Tablelamp.aspx"></asp:HyperLink></h1></li> 
+  </ul>
+</asp:Content>

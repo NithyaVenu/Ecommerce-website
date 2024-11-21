@@ -1,0 +1,82 @@
+<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="ChooseLogin.aspx.cs" Inherits="VBNP.ChooseLogin" %>
+
+ <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!--
+Template Name: Touch of Purple
+Author: <a href="http://www.os-templates.com/">OS Templates</a>
+Author URI: http://www.os-templates.com/
+Licence: Free to use under our free template licence terms
+Licence URI: http://www.os-templates.com/template-terms
+-->
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>VBN Merchandise</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<link rel="stylesheet" href="layout/styles/layout.css" type="text/css" />
+<script type="text/javascript" src="layout/scripts/jquery.min.js"></script>
+<!-- Waterwheel Carousel -->
+<script type="text/javascript" src="layout/scripts/carousel/jquery.waterwheelCarousel.min.js"></script>
+<script type="text/javascript" src="layout/scripts/carousel/jquery.waterwheelCarousel.setup.js"></script>
+<!-- / Waterwheel Carousel -->
+</head>
+<body id="top">
+<div class="wrapper col1">
+  <div id="header">
+    <div class="fl_left">
+      <h1><a href="Default.aspx"><img src="images/demo/Projectlogo.png" alt="" /></a></h1>
+    </div>
+    <div class="fl_right"><a href="#"></a></div>
+       <br class="clear" />
+  </div>
+</div>
+
+<!-- ####################################################################################################### -->
+
+<div class="wrapper col2">
+  <div id="topbar">
+    <div id="topnav">
+             <ul>
+                 <li><a href="Login1.aspx">Customer Login</a></li>  
+                 <li><a href="AdminLogin.aspx">Admin Login</a></li>
+            </ul>
+      </div>
+       <br class="clear" />
+  </div>
+</div> 
+<div class="wrapper col4">
+  <div id="featured_intro">
+    <div class="fl_center">
+      <div class="container">
+        <div class="row">
+          <div class="features_context text-center">
+            <div style="margin:auto auto auto auto;width:50%;height:50%;">
+              <div class="col-md-4">
+                <div class="center"data-wow-duration="5s">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                   <a href="AdminLogin.aspx">
+                           <img src="images/Content/Admin.png"alt="" align="middle" style="width: 223px; height: 122px; margin-left: 15" />  
+                   </a>
+                        <h5>Admin Login</h5>
+                 </div>
+                </div>
+                <br />
+                <br />
+                <br />
+                <div class="col1 -md-4"></div>
+                  <div class="center"data-wow-duration="5s">
+                     <a href="Login1.aspx">
+                          <img src="images/Content/Customer.png"alt="" />
+                     </a>      
+                        <h5> Customer Login</h5>
+                  </div>
+                </div>
+              </div>
+           </div>
+        </div>
+      </div>
+    </div>
+ </div>
+
+<!-- ####################################################################################################### -->
+
+</body>
+</html>

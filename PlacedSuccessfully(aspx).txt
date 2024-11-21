@@ -1,0 +1,169 @@
+<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="PlacedSuccessfully2.aspx.cs" Inherits="VBNP.PlacedSuccessfully2" %>
+
+ <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!--
+Template Name: Touch of Purple
+Author: <a href="http://www.os-templates.com/">OS Templates</a>
+Author URI: http://www.os-templates.com/
+Licence: Free to use under our free template licence terms
+Licence URI: http://www.os-templates.com/template-terms
+-->
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>VBN Merchandise</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<link rel="stylesheet" href="layout/styles/layout.css" type="text/css" />
+<script type="text/javascript" src="layout/scripts/jquery.min.js"></script>
+<!-- Waterwheel Carousel -->
+<script type="text/javascript" src="layout/scripts/carousel/jquery.waterwheelCarousel.min.js"></script>
+<script type="text/javascript" src="layout/scripts/carousel/jquery.waterwheelCarousel.setup.js"></script>
+<!-- / Waterwheel Carousel -->
+    <style type="text/css">
+        .auto-style1 {
+            width: 100%;
+        }
+        .auto-style4 {
+            height: 75px;
+        }
+        .auto-style5 {
+            height: 75px;
+            font-size: large;
+            text-align: center;
+        }
+        .auto-style7 {
+            height: 182px;
+        }
+        .auto-style8 {
+            height: 182px;
+            width: 821px;
+        }
+        .auto-style9 {
+            height: 40px;
+        }
+        .auto-style10 {
+            width: 93%;
+            height: 716px;
+        }
+    </style>
+</head>
+<body id="top">
+   <center> <form id="form1" runat="server" >
+<div class="wrapper col1">
+  <div id="header">
+    <div class="fl_left">
+      <h1><a href="Default.aspx"><img src="images/demo/Projectlogo.png" alt="" /></a></h1>
+      </div>
+    </div>
+   </div>      
+   <asp:SqlDataSource ID="SqlDataSource1" runat="server" ConnectionString="<%$ ConnectionStrings:dbconnect1 %>" SelectCommand="SELECT [OID] FROM [OrderList]"></asp:SqlDataSource>
+        <br />
+        <br />
+   <div> <p>
+            &nbsp;</p>
+        <p>
+            &nbsp;</p>
+        <asp:Label ID="Label1" runat="server" Text="Generate Invoice as PDF" BackColor="Black" Font-Bold="True" Font-Size="Medium" ForeColor="White"></asp:Label>
+        <br />
+        <br />
+        <br />
+        Order ID
+        <asp:Label ID="Label2" runat="server" Text="Label"></asp:Label> 
+        <br />
+        <br />  
+        <br />
+        </div> 
+        <asp:Button ID="Btninvoice" runat="server" Text="Download Invoice"  OnClick="Btninvoice_Click" BackColor="Black" Font-Bold="True" Font-Size="Small" ForeColor="White"/>
+        <br />
+        <br />
+        <br />
+        <asp:Panel ID="Panel1" runat="server">
+            <table class="auto-style10">
+                <tr>
+                    <td class="auto-style5">Retail Invoice</td>
+                </tr>
+                <tr>
+                    <td class="auto-style4">Order No&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        <asp:Label ID="Label3" runat="server"></asp:Label>
+                        <br />
+                        <br />
+                        <br />
+                        Order Date&nbsp;&nbsp;
+                        <asp:Label ID="Label4" runat="server"></asp:Label>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="auto-style4">
+                        <table class="auto-style1">
+                            <tr>
+                                <td class="auto-style8">Buyer Address<br />
+                                    <br />
+                                    <br />
+                                    <br />
+                                    <asp:Label ID="Label5" runat="server"></asp:Label>
+                                </td>
+                                <td class="auto-style7">Seller Address<br />
+                                    <br />
+                                    <br />
+                                    <br />
+                                    <asp:Label ID="Label6" runat="server" Text="VBN Merchandise, MLAC, Bangalore"></asp:Label>
+                                </td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="auto-style9">
+                        <asp:GridView ID="GridView1" runat="server" AutoGenerateColumns="False"   >
+                            <Columns>
+                                <asp:BoundField DataField="SNo" HeaderText="SNo">
+                                <ItemStyle HorizontalAlign="Center" />
+                                </asp:BoundField>
+                                <asp:BoundField DataField="ProductID" HeaderText="ProductID">
+                                <ItemStyle HorizontalAlign="Center" />
+                                </asp:BoundField>
+                                <asp:BoundField DataField="ProductName" HeaderText="ProductName">
+                                <ItemStyle HorizontalAlign="Center" />
+                                </asp:BoundField>
+                                <asp:BoundField DataField="Quantity" HeaderText="Quantity">
+                                <ItemStyle HorizontalAlign="Center" />
+                                </asp:BoundField>
+                                <asp:BoundField DataField="Price" HeaderText="Price">
+                                <ItemStyle HorizontalAlign="Center" />
+                                </asp:BoundField>
+                                <asp:BoundField DataField="TotalPrice" HeaderText="TotalPrice">
+                                <ItemStyle HorizontalAlign="Center" />
+                                </asp:BoundField>
+                            </Columns>
+                        </asp:GridView>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="auto-style4">
+                        <br />
+                        Grand Total&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        <asp:Label ID="Label7" runat="server"></asp:Label>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="auto-style4">DECLARATION: We declare that this invoice shows actual price of the goods described inclusive of taxes and that all particulars are true and&nbsp; correct.<br /> Incase you find Selling price on this invoice to be more than MRP mentioned on product , Please inform us at <a href="mailto:venugopalnithya99@gmail.com" >venugopalnithya99@gmail.com</a>;&nbsp; <a href="mailto:boomikasrinivasan2799@gmail.com">boomikasrinivasan2799@gmail.com</a>; <a href="mailto:varshamanoharan1999@gmail.com">varshamanoharan1999@gmail.com</a> .<br />
+                        <br />
+                        <br />
+                        THIS IS A COMPUTER GENERATED INVOICE AND DOES NOT REQUIRE SIGNATURE. 
+                        <br />
+                        <br />
+                        THANK YOU !!!! FOR VISITING E-SALES VBN MERCHANDISE......PLEASE VISIT AGAIN<br />
+                    </td>      
+                </tr>
+             </table>
+            <br />
+            <br />
+            <br />
+            <br />
+            <h2><asp:HyperLink ID="Hy1" runat="server" Text="Log Out" NavigateUrl="ChooseLogin" ForeColor="White"></asp:HyperLink></h2>
+            <br />
+            <br />   
+        </asp:Panel>
+      </form>
+     </center>
+   </body>
+ </html>

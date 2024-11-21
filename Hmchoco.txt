@@ -1,0 +1,123 @@
+<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Hmchoco.aspx.cs" Inherits="VBNP.Hmchoco" %>
+
+ <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!--
+Template Name: Touch of Purple
+Author: <a href="http://www.os-templates.com/">OS Templates</a>
+Author URI: http://www.os-templates.com/
+Licence: Free to use under our free template licence terms
+Licence URI: http://www.os-templates.com/template-terms
+-->
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>VBN Merchandise</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<link rel="stylesheet" href="layout/styles/layout.css" type="text/css" />
+<script type="text/javascript" src="layout/scripts/jquery.min.js"></script>
+<!-- Waterwheel Carousel -->
+<script type="text/javascript" src="layout/scripts/carousel/jquery.waterwheelCarousel.min.js"></script>
+<script type="text/javascript" src="layout/scripts/carousel/jquery.waterwheelCarousel.setup.js"></script>
+<!-- / Waterwheel Carousel -->
+</head>
+<body id="top">
+<div class="wrapper col1">
+  <div id="header">
+    <div class="fl_left">
+      <h1><a href="Default.aspx"><img src="images/demo/Projectlogo.png" alt="" /></a></h1>
+    </div>
+    <div class="fl_right"><a href="#"></a></div>
+    <br class="clear" />
+  </div>
+</div>
+<!-- ####################################################################################################### -->
+
+<div class="wrapper col2">
+  <div id="topbar">
+    <div id="topnav">
+         
+            <ul>
+        <li><a href="Default.aspx">Home</a></li>
+        
+        <li class="active"><a href="Products.aspx">Products</a>
+          <ul>
+            <li><a href="Candles.aspx">Candles</a></li>
+              <li><a href="Clothbag.aspx">Cloth Bag</a></li>
+              <li><a href="Giftbox.aspx">Explosion Box</a></li>
+              <li><a href="Hmchoco.aspx">Homemade Chocolates</a></li>
+              <li><a href="Jutebag.aspx">Jute Baskets</a></li>
+              <li><a href="Magicbottle.aspx">Magic Bottle</a></li>
+              <li><a href="Mirrordesign.aspx">Mirror Design</a></li>
+              <li><a href="Mobilecase.aspx">Mobile Cases</a></li>
+              <li><a href="Newspaperbag.aspx">Newspaper Bag</a></li>
+              <li><a href="Shoerack.aspx">Shoe Rack</a></li>
+              <li><a href="Tablelamp.aspx">Table Lamp</a></li> 
+          </ul>
+        </li>
+        
+                <li><a href="ChooseLogin.aspx">LogOut</a></li>
+      </ul> 
+
+    </div>
+    
+            <div id="topbar">
+             <div id="topnav">
+           <ul>
+                
+               </ul>
+            </div>
+           </div>
+        
+     
+    </div>
+    <br class="clear" />
+  </div>
+
+<!-- ####################################################################################################### -->
+    
+<div class="wrapper col3">
+  <div id="waterwheelCarousel">
+       <img src="images/content/Hmchoco/choc1.jpg" alt="" />
+       <img src="images/content/Hmchoco/choc2.jpg" alt="" />
+       <img src="images/content/Hmchoco/choc3.jpg" alt="" />
+       <img src="images/content/Hmchoco/choc4.jpg" alt="" />
+       <img src="images/content/Hmchoco/choc5.jpg" alt="" />
+  </div>
+</div>
+        
+<!-- ####################################################################################################### -->
+
+<div class="wrapper col4">
+  <div id="featured_intro">
+    <div class="fl_center">
+       <p> <center><h1 style="font-size: xx-large">HOMEMADE CHOCOLATE</h1></center></p>
+        <br />
+        <br />
+        <p>
+            <ul>
+                <li><h4>With sincerity and dedication of our professionals,we have carved a niche for ourselves in this industry by providing quality assured delicious Homemade chocolates.</h4></li>
+                <li> <h4> provided chocolates are prepared using the finest quality coco seeds and other ingredients</h4><li>
+                <li><h4> The offered chocolates are widely demanded by our clients for their delicious taste and flavour.</h4></li>
+                <li><h4> Moreover,our valuable patrons can avail these chocolates from the market at economical prices.</h4></li>
+            </ul>
+            <p><h2>Features</h2></p>
+            <p>
+                <ul type="square">
+                    <li><h4>Hygienically prepared</h4></li>
+                    <li><h4>Delicious taste</h4></li>
+                    <li><h4>Free from impurities</h4></li>
+                </ul>
+            </p>
+        </p>
+             <br class="clear" />
+         
+    </div>
+  </div>
+</div>
+<!-- ####################################################################################################### -->
+   
+     
+
+<!-- ####################################################################################################### -->
+
+</body>
+</html>

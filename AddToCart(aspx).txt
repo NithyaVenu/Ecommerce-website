@@ -1,0 +1,132 @@
+<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="AddToCart.aspx.cs" Inherits="VBNP.AddToCart1" %>
+
+ <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!--
+Template Name: Touch of Purple
+Author: <a href="http://www.os-templates.com/">OS Templates</a>
+Author URI: http://www.os-templates.com/
+Licence: Free to use under our free template licence terms
+Licence URI: http://www.os-templates.com/template-terms
+-->
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>VBN Merchandise</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<link rel="stylesheet" href="layout/styles/layout.css" type="text/css" />
+<script type="text/javascript" src="layout/scripts/jquery.min.js"></script>
+<!-- Waterwheel Carousel -->
+<script type="text/javascript" src="layout/scripts/carousel/jquery.waterwheelCarousel.min.js"></script>
+<script type="text/javascript" src="layout/scripts/carousel/jquery.waterwheelCarousel.setup.js"></script>
+<!-- / Waterwheel Carousel -->
+    <style type="text/css">
+        .auto-style1 {
+            width: 100%;
+        }
+        .auto-style2 {
+            text-align: center;
+            height: 27px;
+        }
+        .auto-style3 {
+            text-align: center;
+            height: 26px;
+        }
+        </style>
+</head>
+<body id="top">
+    <form id="form1" runat="server">
+    <div class="wrapper col1">
+      <div id="header">
+        <div class="fl_left">
+             <h1><a href="Default.aspx"><img src="images/demo/Projectlogo.png" alt="" /></a></h1>
+        </div>
+      <div class="fl_right"><a href="#"></a></div>
+          <br class="clear" />
+     </div>
+  </div>
+
+<!-- ####################################################################################################### -->
+
+<div class="wrapper col2">
+  <div id="topbar">
+    <div id="topnav">    
+            <ul>
+                 <li><a href="Default.aspx">Home</a></li>
+                 <li class="active"><a href="AddToCart.aspx" >Items-Cart</a></li>
+                 <li><a href=" FeedBack.aspx">Feed Back</a></li>
+                 <li><a href=" ContactUs.aspx">Contact us</a></li>
+                 <li><a href="ChooseLogin.aspx" >Log Out</a></li>
+            </ul>        
+          </div>
+    <br class="clear" />
+  </div>
+</div>
+    <p>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        </p>
+        <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;<h3> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; No&nbsp; of&nbsp; Products in your cart</h3>&nbsp;&nbsp;
+            <asp:Label ID="Label4" runat="server" Text="Label"></asp:Label>
+            <asp:HyperLink ID="HyperLink1" runat="server" NavigateUrl="~/Cart.aspx"><h4>SHOW CART</h4></asp:HyperLink>
+        </p>
+        <p>
+            <br />
+        </p>
+        <p>
+            <asp:DataList ID="DataList1" runat="server" BackColor="White" BorderColor="#CCCCCC" BorderStyle="None" BorderWidth="1px" CellPadding="3" DataSourceID="SqlDataSource1" GridLines="Both" OnItemCommand="DataList1_ItemCommand" RepeatColumns="3" OnSelectedIndexChanged="DataList1_SelectedIndexChanged" >
+                <FooterStyle BackColor="White" ForeColor="#000066" />
+                <HeaderStyle BackColor="#006699" Font-Bold="True" ForeColor="White" />
+                <ItemStyle ForeColor="#000066" />
+                <ItemTemplate>
+                    <table class="auto-style1">
+                        <tr>
+                          <td class="center">ProductID-
+                             <asp:Label ID="Label5" runat="server" Text='<%# Eval("ProductID") %>'></asp:Label>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td class="auto-style2">
+                            <asp:Label ID="Label6" runat="server" Text='<%# Eval("ProductName") %>'></asp:Label>
+                          </td>
+                         </tr>
+                         <tr>
+                           <td class="right">
+                              <asp:Image ID="Image1" runat="server" ImageUrl='<%# Eval("ProductImage") %>' />
+                           </td>
+                        </tr>
+                        <tr>
+                           <td class="auto-style3">
+                               Price- Rs.<asp:Label ID="Label7" runat="server" Text='<%# Eval("Price") %>'></asp:Label>
+                            </td>
+                        </tr>
+                        <tr>
+                           <td class="center">Quantity
+                              <asp:DropDownList ID="DropDownList1" runat="server">
+                                  <asp:ListItem>1</asp:ListItem>
+                                  <asp:ListItem>2</asp:ListItem>
+                                  <asp:ListItem>3</asp:ListItem>
+                                  <asp:ListItem>4</asp:ListItem>
+                                  <asp:ListItem>5</asp:ListItem>
+                              </asp:DropDownList>
+                            </td>
+                         </tr>
+                         <tr>
+                            <td class="center">
+                                <asp:ImageButton ID="ImageButton1" runat="server" CommandArgument=' <%# Eval("ProductId")%>' CommandName="AddToCart" ImageUrl="~/images/Content/cart.jfif" Width="207px" OnClick="ImageButton1_Click" />
+                            </td>
+                        </tr>
+                    </table>
+                    <br />
+                    <br />
+                </ItemTemplate>
+                   <SelectedItemStyle BackColor="#669999" Font-Bold="True" ForeColor="White" />
+            </asp:DataList>
+        </p>
+        <p>  &nbsp;
+
+        </p>      
+        <p>
+            <asp:SqlDataSource ID="SqlDataSource1" runat="server" ConnectionString="<%$ ConnectionStrings:dbconnect1 %>" SelectCommand="SELECT * FROM [ProductDetail]"></asp:SqlDataSource>
+        </p>
+     </form>
+  </body>
+</html>
+

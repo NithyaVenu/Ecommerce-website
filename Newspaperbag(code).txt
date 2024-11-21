@@ -1,0 +1,124 @@
+<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Newspaperbag.aspx.cs" Inherits="VBNP.Newspaperbag" %>
+
+ <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!--
+Template Name: Touch of Purple
+Author: <a href="http://www.os-templates.com/">OS Templates</a>
+Author URI: http://www.os-templates.com/
+Licence: Free to use under our free template licence terms
+Licence URI: http://www.os-templates.com/template-terms
+-->
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>VBN Merchandise</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<link rel="stylesheet" href="layout/styles/layout.css" type="text/css" />
+<script type="text/javascript" src="layout/scripts/jquery.min.js"></script>
+<!-- Waterwheel Carousel -->
+<script type="text/javascript" src="layout/scripts/carousel/jquery.waterwheelCarousel.min.js"></script>
+<script type="text/javascript" src="layout/scripts/carousel/jquery.waterwheelCarousel.setup.js"></script>
+<!-- / Waterwheel Carousel -->
+</head>
+<body id="top">
+<div class="wrapper col1">
+  <div id="header">
+    <div class="fl_left">
+      <h1><a href="Default.aspx"><img src="images/demo/Projectlogo.png" alt="" /></a></h1>
+    </div>
+    <div class="fl_right"><a href="#"></a></div>
+    <br class="clear" />
+  </div>
+</div>
+<!-- ####################################################################################################### -->
+
+<div class="wrapper col2">
+  <div id="topbar">
+    <div id="topnav">
+         
+            <ul>
+        <li><a href="Default.aspx">Home</a></li>
+         <li class="active"><a href="Products.aspx">Products</a>
+          <ul>
+             <li><a href="Candles.aspx">Candles</a></li>
+              <li><a href="Clothbag.aspx">Cloth Bag</a></li>
+              <li><a href="Giftbox.aspx">Explosion Box</a></li>
+              <li><a href="Hmchoco.aspx">Homemade Chocolates</a></li>
+              <li><a href="Jutebag.aspx">Jute Baskets</a></li>
+              <li><a href="Magicbottle.aspx">Magic Bottle</a></li>
+              <li><a href="Mirrordesign.aspx">Mirror Design</a></li>
+              <li><a href="Mobilecase.aspx">Mobile Cases</a></li>
+              <li><a href="Newspaperbag.aspx">Newspaper Bag</a></li>
+              <li><a href="Shoerack.aspx">Shoe Rack</a></li>
+              <li><a href="Tablelamp.aspx">Table Lamp</a></li> 
+          </ul>
+        </li>
+                  <li><a href="ChooseLogin.aspx">LogOut</a></li>
+      </ul> 
+
+    </div>
+    
+           <div class="wrapper col2">
+            <div id="topbar">
+             <div id="topnav">
+           <ul>
+              
+               </ul>
+            </div>
+           </div>
+          </div>
+    </div>
+    <br class="clear" />
+  </div>
+
+<!-- ####################################################################################################### -->
+    
+<div class="wrapper col3">
+  <div id="waterwheelCarousel">
+    <img src="images/content/newspaperbag/nb1.jpg" alt="" />
+    <img src="images/content/newspaperbag/nb2.jpg" alt="" />
+    <img src="images/content/newspaperbag/nb3.jpg" alt="" />
+    <img src="images/content/newspaperbag/nb4.jpg" alt="" />
+    <img src="images/content/newspaperbag/nb5.jpg" alt="" />
+  
+      
+  </div>
+</div>
+        
+<!-- ####################################################################################################### -->
+
+<div class="wrapper col4">
+  <div id="featured_intro">
+    <div class="fl_center">
+              
+       <p><center><h1 style="font-size: xx-large">NEWSPAPER BAG</h1></center></p>
+        <br />
+        <br />
+       <h4><p>* A paper bag is a bag made of paper,usually kraft paper,paper bags are commonly used as shopping bags,packaging and sacks.</p></h4>
+       <h4><p>* Standard brown paper bags are also made from kraft paper.Tote style paper bags such as those often used by separtment stores or as gift bags,can be made from any kind of paper and come in any color.</p></h4>
+       <h4><p>* Paper bags can be made from recycled paper through which we can do our bit towards the environment.</p></h4>
+       <h4><p>  Paper bags comes in two types:
+          <ul type="square"><li><h4>Single layer</h4></li>
+              <li><h4>Multi Wallpaper sacks</h4></li>
+          </ul>
+            </p></h4>
+       <p><h2>1)Single layer</h2><h4>* Paper shopping bags ,brown paper bags grocery bags,paper bread bags and other light duty bags,single layer of paper.</h4></p>
+       <p><h2>2)Multi Wallpaper sacks</h2><h4>* They are used as shipping contains for bulk materials such as fertilizer,animal feed,sand,dry chemicals,flour and cement.</h4></p>
+       <p><h4>* Two designs of Multi Wallpaper sacks:</h4>
+          <ul type="square"> <h3>1)Open mouth bag</h3><h4>* Open mouth bag is a tube of paper piles with the bottom and sealed.</h4></p>       
+       <p><h2>2)Valve bags</h2><h4>* Valve sacks have both ends closed and filled through a valve.Ex:-cement sack</h4>
+               <br class="clear" />
+          
+       
+    </div>
+  </div>
+</div>
+    <form  runat="server">
+     </form>
+<!-- ####################################################################################################### -->
+   
+     
+
+<!-- ####################################################################################################### -->
+
+</body>
+</html>

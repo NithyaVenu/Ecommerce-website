@@ -1,0 +1,121 @@
+<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Mirrordesign.aspx.cs" Inherits="VBNP.Mirrordesign" %>
+
+ <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!--
+Template Name: Touch of Purple
+Author: <a href="http://www.os-templates.com/">OS Templates</a>
+Author URI: http://www.os-templates.com/
+Licence: Free to use under our free template licence terms
+Licence URI: http://www.os-templates.com/template-terms
+-->
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>VBN Merchandise</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<link rel="stylesheet" href="layout/styles/layout.css" type="text/css" />
+<script type="text/javascript" src="layout/scripts/jquery.min.js"></script>
+<!-- Waterwheel Carousel -->
+<script type="text/javascript" src="layout/scripts/carousel/jquery.waterwheelCarousel.min.js"></script>
+<script type="text/javascript" src="layout/scripts/carousel/jquery.waterwheelCarousel.setup.js"></script>
+<!-- / Waterwheel Carousel -->
+</head>
+<body id="top">
+<div class="wrapper col1">
+  <div id="header">
+    <div class="fl_left">
+      <h1><a href="Default.aspx"><img src="images/demo/Projectlogo.png" alt="" /></a></h1>
+    </div>
+    <div class="fl_right"><a href="#"></a></div>
+    <br class="clear" />
+  </div>
+</div>
+<!-- ####################################################################################################### -->
+
+<div class="wrapper col2">
+  <div id="topbar">
+    <div id="topnav">
+         
+            <ul>
+        <li><a href="Default.aspx">Home</a></li>
+        <li><a href="Login.aspx">Log In</a></li>  
+        <li><a href="Registration.aspx">Registration</a></li>
+        <li class="active"><a href="Products.aspx">Products</a>
+          <ul>
+            <li><a href="NewsPaperBag.aspx">Paper Bag</a></li>
+            <li><a href="Cloth Bag.aspx">Cloth Bag</a></li>
+            <li><a href="Mirrordesign.aspx">Mirror Design</a></li>
+            <li><a href="Magicbottle.aspx">Magic Bottle</a></li>
+            <li><a href="#">Homemade Chocolates</a></li>
+            <li><a href="#">Jute Baskets</a></li>
+            <li><a href="Mobile Backcase.aspx">Mobile Cases</a></li>
+            <li><a href="Tablelamp.aspx">Table Lamp</a></li>
+            <li><a href="#">Candles</a></li>
+            <li><a href="Gift Box.aspx">Explosion Box</a></li>
+            <li><a href="#">Shoe Rack</a></li>
+          </ul>
+        </li>
+                <li><a href=" ContactUs.aspx">Contact us</a></li>
+      </ul> 
+
+    </div>
+    <div id="search">
+      <form action="#" method="post">
+        <fieldset>
+          <legend>Site Search</legend>
+          <input type="text" value="Search Our Website&hellip;"  onfocus="this.value=(this.value=='Search Our Website&hellip;')? '' : this.value ;" />
+          <input type="submit" name="go" id="go" value="Search" />
+           <div class="wrapper col2">
+            <div id="topbar">
+             <div id="topnav">
+           <ul>
+               <li><a href="Default.aspx">LogOut</a></li>
+               </ul>
+            </div>
+           </div>
+          </div>
+        </fieldset>
+      </form>
+    </div>
+    <br class="clear" />
+  </div>
+</div>
+
+<!-- ####################################################################################################### -->
+    
+<div class="wrapper col3">
+  <div id="waterwheelCarousel">
+    <img src="images/content/mirrordesign/md.jpg" alt="" />
+    <img src="images/content/mirrordesign/md1.jpg" alt="" />
+    <img src="images/content/mirrordesign/md2.jpg" alt="" />
+    <img src="images/content/mirrordesign/md3.jpg" alt="" />
+    <img src="images/content/mirrordesign/md4.jpg" alt="" />
+    <img src="images/content/mirrordesign/md5.jpg" alt="" />
+    <img src="images/content/mirrordesign/md6.jpg" alt="" />
+    <img src="images/content/mirrordesign/md7.jpg" alt="" />
+  </div>
+</div>
+        
+<!-- ####################################################################################################### -->
+
+<div class="wrapper col4">
+  <div id="featured_intro">
+    <div class="fl_center">
+        <h3><p>* Mirror Design aren't just designed to add a decorative touch to an interior.They are also the perfect solution for making a space feel brighter ans larger.</p>
+            <p>* Here,we share some of our favourite ways to use mirrors of all styles to showcasethe beauty of various design scheme,from bedrooms to dining areas.</p>
+            <p>* Mirrors are a great way to open up a space,using reflections to make a room feel larger than it usually/actually is.</p>
+            <p>* Not only can mirrors be fun to decorate with,but with a little creativity,they can easily become the show-shopping center pieceof your home.</p>
+            <p>* Whem picking mirrors for your favourite room,don't feel confined in your frame choices to round,rectangular or a few curly flourishes around the edges.</p>
+            <p>* They are all great approaches that work well in a variety of settings,but don't be afraid to go for shopping a little bolder.</p>
+            <p>* Not only does it give you all the mirror space you could possibly need,but it also opens up the room by giving the optical illusion of more space.</p>
+        </h3>
+    </div>
+  </div>
+</div>
+<!-- ####################################################################################################### -->
+   
+     
+
+<!-- ####################################################################################################### -->
+
+</body>
+</html>

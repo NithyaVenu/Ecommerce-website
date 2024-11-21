@@ -1,0 +1,137 @@
+<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="EditOrder.aspx.cs" Inherits="VBNP.EditOrder" %>
+
+ <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!--
+Template Name: Touch of Purple
+Author: <a href="http://www.os-templates.com/">OS Templates</a>
+Author URI: http://www.os-templates.com/
+Licence: Free to use under our free template licence terms
+Licence URI: http://www.os-templates.com/template-terms
+-->
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>VBN Merchandise</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<link rel="stylesheet" href="layout/styles/layout.css" type="text/css" />
+<script type="text/javascript" src="layout/scripts/jquery.min.js"></script>
+<!-- Waterwheel Carousel -->
+<script type="text/javascript" src="layout/scripts/carousel/jquery.waterwheelCarousel.min.js"></script>
+<script type="text/javascript" src="layout/scripts/carousel/jquery.waterwheelCarousel.setup.js"></script>
+<!-- / Waterwheel Carousel -->
+    <style type="text/css">
+        .auto-style1 {
+            width: 32%;
+            height: 142px;
+        }
+        .auto-style2 {
+            height: 26px;
+            width: 224px;
+        }
+        .auto-style3 {
+            width: 193px;
+        }
+        .auto-style4 {
+            height: 26px;
+            width: 193px;
+        }
+        .auto-style5 {
+            width: 224px;
+        }
+    </style>
+</head>
+<body id="top">
+    <form id="form1" runat="server">
+<div class="wrapper col1">
+  <div id="header">
+    <div class="fl_left">
+      <h1><a href="Default.aspx"><img src="images/demo/Projectlogo.png" alt="" /></a></h1>
+    </div>
+    <div class="fl_right"><a href="#"></a></div>
+    <br class="clear" />
+  </div>
+</div>
+<!-- ####################################################################################################### -->
+
+<div class="wrapper col2">
+  <div id="topbar">
+    <div id="topnav">   
+            <ul>
+                 <li><a href="Default.aspx">Home</a></li> 
+                 <li><a href="AddToCart.aspx" >Items-Cart</a></li>
+                 <li class="active"><a href="EditOrder.aspx" >Edit Your Cart</a></li>
+                 <li><a href="FeedBack.aspx">Feed Back</a></li>
+                 <li><a href=" ContactUs.aspx">Contact us</a></li>
+                 <li><a href="ChooseLogin.aspx" >Log Out</a></li>
+           </ul>
+           <div id="topbar">
+             <div id="topnav">
+            </div>
+          </div>
+        </div>
+    <br class="clear" />
+  </div>
+</div>
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+       
+   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; <asp:Label ID="Label1" runat="server" Text="MODIFY SHOPPING CART"></asp:Label>
+        <br />
+        <br />
+        <br />
+          <table bgcolor="Black" border="1" class="auto-style1" align="center">
+             <tr>
+                <td class="auto-style3">SNO&nbsp; </td>
+                <td class="auto-style5">
+                <asp:Label ID="Label2" runat="server" Text="Label"></asp:Label>
+                </td>
+              </tr>
+             <tr>
+                <td class="auto-style3">ProductID</td>
+                <td class="auto-style5">
+                    <asp:Label ID="Label3" runat="server" Text="Label"></asp:Label>
+                </td>
+            </tr>
+            <tr>
+                <td class="auto-style4">ProductName</td>
+                <td class="auto-style2">
+                    <asp:Label ID="Label4" runat="server" Text="Label"></asp:Label>
+                </td>
+            </tr>
+            <tr>
+                <td class="auto-style3">Price</td>
+                <td class="auto-style5">
+                    <asp:Label ID="Label5" runat="server" Text="Label"></asp:Label>
+                </td>
+            </tr>
+            <tr>
+                <td class="auto-style3">Quantity</td>
+                <td class="auto-style5">
+                    <asp:DropDownList ID="DropDownList1" runat="server" AutoPostBack="True" OnSelectedIndexChanged="DropDownList1_SelectedIndexChanged">
+                        <asp:ListItem Value="1"></asp:ListItem>
+                        <asp:ListItem>2</asp:ListItem>
+                        <asp:ListItem>3</asp:ListItem>
+                        <asp:ListItem>4</asp:ListItem>
+                        <asp:ListItem>5</asp:ListItem>
+                    </asp:DropDownList>
+                </td>
+            </tr>
+            <tr>
+                <td class="auto-style3">TotalPrice</td>
+                <td class="auto-style5">
+                    <asp:Label ID="Label6" runat="server" Text="Label"></asp:Label>
+                </td>
+            </tr>
+            <tr>
+                <td class="auto-style3">&nbsp;</td>
+                <td class="auto-style5">
+                    <asp:Button ID="Button1" runat="server" BackColor="Black" ForeColor="White" Height="31px" OnClick="Button1_Click" Text="Save" Width="60px" />
+                </td>
+            </tr>
+        </table>
+    </form>
+  </body>
+</html>
+
